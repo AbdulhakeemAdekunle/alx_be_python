@@ -1,6 +1,6 @@
 def safe_divide(numerator, denominator):
     division = float(numerator / denominator)
-    return f"{division:.2f}"
+    return f"The result of the division is {division:.2f}"
 try:
     print(safe_divide(5, 3))
 except ZeroDivisionError:
