@@ -31,11 +31,11 @@ class Calculator:
     def multiply(cls, a, b):
         cls.a = a
         cls.b = b
-        product = a * b
+
         print(f"Calculation type: {cls.calculation_type}")
-        return product
+        return a * b
 
     @staticmethod
     def add(a, b):
         sum = a + b
-        return sum
+        return a + b
